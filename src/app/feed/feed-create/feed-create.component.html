@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-form-field>
+      <input type="text" matInput placeholder="Title" [(ngModel)]="feed">
+    </mat-form-field>
+    <mat-form-field>
+      <input type="text" matInput placeholder="Description" [(ngModel)]="des">
+    </mat-form-field>
+    <mat-form-field>
+      <input type="text" matInput placeholder="Department" [(ngModel)]="dep">
+    </mat-form-field>
+    <mat-form-field>
+      <input type="text" matInput placeholder="Submitted By" [(ngModel)]="sub">
+    </mat-form-field>
+    <mat-form-field>
+      <input type="text" matInput placeholder="Submission Date" [(ngModel)]="date">
+    </mat-form-field>
+    <button mat-raised-button color="success" (click)="onSubmit()">Submit</button>
+  </mat-card>
